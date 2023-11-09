@@ -1,0 +1,58 @@
+body{
+    
+    background-image:url(../img/font.jpeg) ;
+    background-color: blue;
+    color:black;
+    margin:0;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-position:center center;
+    width: 100%;
+    height: auto;
+}
+
+
+/* Styles de l'en-tête (header) */
+header {
+    background-color: #333; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    text-align: center; /* Alignement du texte au centre */ padding: 20px; /* Espacement intérieur */
+}
+
+    /* Styles du contenu principal (main) */ 
+main {
+    padding: 20px; /* Espacement intérieur */
+}
+
+/* Styles du pied de page (footer) */
+footer {
+    background-color: #333; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    text-align: center; /* Alignement du texte au centre */ padding: 10px; /* Espacement intérieur */
+    }
+    
+
+.modif_img_zelda{
+    width: 20%;
+    height: auto;
+}
+
+
+.modif_button{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+
+}
+
+
+.modif_button:hover {
+    background-color: rgba(255, 0, 0, 1);
+  }
